@@ -1,0 +1,16 @@
+/* Author:Seth McCrudden
+* Last date modified: 24-Oct-2020
+* File name: README
+* Description: This is the file describing what each specific file does.
+*/
+
+The purpose of this project is to allow a user to be able to create an inventory of books using linked lists. The user could also print, save or load a saved inventory 
+It is relatively straight forward to run this program. First cd into the directory of this README file and run make. Which will produce a project executable. When running the executable the user will be prompted to input an option which will be used allow the user to interact with the program and perform actions such as load an inventory, delete a book, save the inventory, print it to the screen or search for a part of a book name
+The files needed to run this are: main.cpp, book.h, books.h, books.cpp.
+README contains brief documentation of every file.
+inventory.txt a sample database for testing
+makefile used to compile and run the program
+main.cpp Provides an interface for the user to interact with the inventory allowing modification, saving and creation of an inventory.
+book.h Defines all the book properities.
+books.h Defines all the inventory methods.
+books.cpp Contains the definitions of the VectorTest class which will be used to test Vector.
